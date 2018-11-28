@@ -1,0 +1,28 @@
+#!/bin/bash
+
+clear
+
+echo "**** MENU ****"
+echo " "
+echo "1 - Firefox"
+echo "2 - Pcmanfm"
+echo "3 - Mostrar o IP"
+echo " "
+
+echo "Escolha uma opção"
+
+read numero
+
+if [ $numero -eq 1 ]; then
+    /usr/bin/firefox "www.google.com.br"
+
+elif [ $numero -eq 2 ]; then
+    /usr/bin/pcmanfm
+
+elif [ $numero -eq 3 ]; then
+    hostname -I
+
+else
+    echo "Número de opção inválida"
+    
+fi

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+clear
+
+mkdir pasta
+
+cd pasta
+
+contador=0
+
+while [ $contador -lt 30 ]
+do
+    touch bob$contador
+    contador=$[contador+1]
+done

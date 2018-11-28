@@ -1,0 +1,17 @@
+#!/bin/bash
+
+clear
+
+contador=0
+
+cd pasta
+
+while [ $contador -lt 10 ]
+do
+    rm bob$contador
+    contador=$[contador+1]
+done
+
+cd ..
+
+rm -r pasta

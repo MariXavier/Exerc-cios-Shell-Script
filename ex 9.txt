@@ -1,0 +1,18 @@
+#!/bin/bash
+
+clear
+
+echo "Digite coeficiente a"
+read a
+echo "Digite coeficiente b"
+read b
+echo "Digite coeficiente c"
+read c
+
+delta=$(echo "$b^2-4*$a*$c" | bc)
+echo "delta: $delta"
+
+
+if [ $delta -lt 0 ]; then
+    echo "o delta é negativo"
+fi

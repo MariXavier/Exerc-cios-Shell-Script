@@ -1,0 +1,4 @@
+#!/bin/bash
+/usr/bin/firefox "www.youtube.com"
+
+#usar which para ver onde o programa está instalado no SO

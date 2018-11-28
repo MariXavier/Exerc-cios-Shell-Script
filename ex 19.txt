@@ -1,0 +1,9 @@
+#!/bin/bash
+
+clear
+
+touch sc2.txt
+
+echo "oi" > sc2.txt
+
+cat sc2.txt

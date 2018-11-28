@@ -1,0 +1,21 @@
+#!/bin/bash
+
+clear
+
+echo "Qual o nome do arquivo?"
+read nomeArquivo
+
+touch $nomeArquivo
+
+echo "Quantas frases gostaria de digitar?"
+read quantidade_frases
+
+contador=0
+
+while [ ${contador} -lt ${quantidade_frases} ]
+do
+    echo "Digite uma frase"
+    read frase
+    echo "$frase" >> $nomeArquivo
+    contador=$[contador+1]
+done

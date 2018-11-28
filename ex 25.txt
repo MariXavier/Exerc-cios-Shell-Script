@@ -1,0 +1,27 @@
+
+#!/bin/bash
+
+clear
+
+echo "***MENU***"
+echo " "
+echo "1 - Hora"
+echo "2 - Calendário"
+echo "3 - Fechar o terminal"
+echo " "
+echo " "
+
+echo "Escolha uma opção do menu acima"
+read resposta
+
+
+if [ $resposta -eq 1 ]; then
+    date
+elif [ $resposta -eq 2 ]; then
+    cal
+elif [ $resposta -eq 3 ]; then
+
+    exit
+
+    
+fi

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Digite o primeiro número"
+read n1
+echo "Digite o segundo número"
+read n2
+echo "Deseja realizar a soma entre esses dois números? [s] ou [n]?"
+read resposta
+test "$resposta" = "s" && soma=$[n1+n2] && echo "a soma é $soma"
+test "$resposta" = "n" && exit

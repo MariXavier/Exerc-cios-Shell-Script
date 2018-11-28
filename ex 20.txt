@@ -1,0 +1,13 @@
+#!/bin/bash
+
+clear
+
+echo "Qual o nome do arquivo?"
+read nomeArquivo
+
+echo "Qual a frase gostaria de armazenar no arquivo?"
+read frase
+
+touch $nomeArquivo
+
+echo "$frase" > $nomeArquivo

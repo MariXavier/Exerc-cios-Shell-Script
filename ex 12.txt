@@ -1,0 +1,5 @@
+#!/bin/bash
+
+clear
+
+pkill -KILL -u aluno

@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "digite o primeiro número"
+read n1
+echo "digite o segundo número"
+read n2
+soma=$[n1+n2]
+echo "$n1 + $n2 = $soma"

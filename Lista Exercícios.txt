@@ -1,0 +1,66 @@
+1) Desenvolver um script que pergunta e lê dois números, depois escreve a soma
+
+2) desenvolver um script que mostra o ip do computador
+
+3) desenvolver um script que abre o chrome no youtube
+
+4) desenvolver um script que abre o pcmanfm
+
+5) desenvolver um script que pergunta e lê dois números, depois pergunta se deseja somar os números (e soma caso a resposta seja sim)
+
+6) Mostrar conteúdo da pasta atual (comando ls)
+
+7) pergunta um nome e escreve ‘boa noite e nome respondido”
+
+8) perguntar e ler 3 números e calcular delta (bhaskara)
+
+9) igual ao anterior, mas se o delta for negativo, script escreve ‘delta negativo’
+
+10) mostrar o conteúdo da pasta /home/aluno
+
+11) mostrar calendário
+
+12) script para log off
+
+13) mostra um menu:
+firefox
+pcmanfm
+mostrar o ip
+Então o usuário escolhe uma opção e o script executa
+
+14) abrir o leafpad
+
+15) pergunta número e escreve se o número ‘é maior/igual a zero’ ou ‘menor que zero’
+
+16) mostrar conteúdo de /usr/bin
+
+17) script para perguntar e ler 3 números depois calcular delta, x1, x2 e ,mostrar os resultados
+
+18) perguntar um número e escrever a tabuada do número
+
+19) Script que cria e executa um script que escreve “oi”
+
+20) pergunta um nome de arquivo e uma frase, depois ele cria o arquivo com o nome respondido e escreve a frase respondida no arquivo
+
+21) pergunta um nome de arquivo e duas frases, depois ele cria o arquivo com o nome respondido e escreve as frases respondidas no arquivo
+
+22) Script que pergunta um nome de arquivo e um número, depois o script lê o mesmo número de frases respondido, depois ele cria o arquivo com o nome respondido e escreve as frases respondidas no arquivo
+
+23) Script para criar uma pasta e 30 arquivos dentro. (mkdir cria pastas, usar while)
+
+24) Desenvolver um script que apaga os 10 arquivos anteriores e a pasta criada. (rmdir apaga)
+
+25) Script que mostra um menu
+    1- hora
+    2-calendário
+    3-fechar o terminal (exit fecha o terminal)
+    então o usuário digita o número referente à ação escolhida
+
+26) Criar um script para criar 10 arquivos .txt de uma vez
+
+27) Criar um script que pergunta um nome e cria 1 arquivo .txt com o nome respondido
+
+28) criar um script que mostra o usuário atual
+
+29) criar um script que escreve de 1 até 10 utilizando while
+

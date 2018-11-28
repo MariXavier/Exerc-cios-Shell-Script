@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "digite um numero"
+read numero
+
+if [ $numero -ge 0 ]; then
+    echo "$numero > = 0"
+else
+    echo "$numero < 0"
+fi

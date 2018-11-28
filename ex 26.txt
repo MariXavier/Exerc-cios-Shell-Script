@@ -1,0 +1,12 @@
+#!/bin/bash
+
+touch texto1.txt
+touch texto2.txt
+touch texto3.txt
+touch texto4.txt
+touch texto5.txt
+touch texto6.txt
+touch texto7.txt
+touch texto8.txt
+touch texto9.txt
+touch texto10.txt

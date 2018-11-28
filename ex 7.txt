@@ -1,0 +1,7 @@
+#!/bin/bash
+
+clear
+
+echo "Olá, qual o seu nome?"
+read nome
+echo "Boa noite $nome!"

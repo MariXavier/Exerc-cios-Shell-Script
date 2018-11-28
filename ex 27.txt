@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Qual nome você gostaria de dar para o seu arquivo texto?"
+read resposta
+touch $resposta.txt
